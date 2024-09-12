@@ -79,6 +79,13 @@ To accept values greater than 2π, you will need to divide the input value by 2�
 
 To calculate `cos(x)`, do `sin(π/2 - x)`.
 
+### Third-order odd polynomial approximation
+
+Sine and cosine can also be approximated using `3/π-4x³/π³`.
+With some slight modifications, this can be adapted to create a sine function that takes values between 0 and 1, as shown in the following image:
+
+![Screenshot_4](https://github.com/user-attachments/assets/f134dca6-bfd0-4756-91bf-c3c8c8ddbeb6)
+
 `tan(x)` can be calculated with `sin(x) / cos(x)`, but there's probably a more efficient way to do it directly.
 
 ### Asin, acos, atan
